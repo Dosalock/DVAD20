@@ -1,4 +1,4 @@
-## Computer Networks the Fundamentals
+# Computer Networks the Fundamentals
 
 ## What is Data Networking?
 
