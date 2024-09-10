@@ -44,7 +44,7 @@ google survey -> if you have latency the customers will not use product
 
 ## The real journey of a websearch
 
-**insert the picture from the slides**
+<img src="assets/journeyWebSearch.PNG" width="700">
 
 40 parallel servers handling the request to find the results for the first page
 First webserver handles your request
@@ -205,7 +205,8 @@ CDF (commulative distribution function)
 y = % CDF
 X = Flow size in bytes (Log scale)
 You can bin the flows to see how many are between 1-1000 bytes etc.etc.
-**add the picture from the slide**
+
+<img src="assets/mouse-elephant-graph.png" width="700">
 you can see what flows are elephant and mice with this CDF graph
 
 Challange is to find the elephant flows so we can optimize them
@@ -232,10 +233,9 @@ ex mice flow send and exit fast
 
 p4.org - programming switches? fun to check
 
-
 ## Conventional Datacenter Network
 
-**get the slide image**
+<img src="assets/Conventional-Datacenter-Networks.png" width="700">
 
 * CR = Core router (l3)
   * some CRs have internet connectivity but not all
@@ -257,6 +257,8 @@ when we construct this multi tiered network we need to conside the bandwith at a
 ## Problem with layer 2 Switching
 
 **get pic from slides**
+
+<img src="assets/20240910_193250_Problem-With-Layer-2-Switching.png" width="700">
 
 A two-tier Spine-Leaf Topology
 
@@ -299,7 +301,7 @@ going fast wroom wroom
 
 ## Example topology design
 
-**slide pictures**
+<img src="assets/20240910_192922_Example-Topology-Design.PNG" width="700">
 
 * Fat-tree
   * tree with multiple roots
@@ -320,7 +322,7 @@ Multi-rooted tree [fat-tree, Leaf-spine, ...] achive full bisection bandwith ass
 
 ## Google: Approximating Big Switch
 
-* Google 2004: CLuster Routers (CR)
+* Google 2004: Cluster Routers (CR)
   * 512 ports -> expensive
   * Special purpose
   * Oversubscription -> bottleneck for intra-rack
