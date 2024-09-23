@@ -389,6 +389,7 @@ match table looking like this
 
 
 | Match | Instruction |
-| ------- | ------------- | 
-| ALL   | FLOOD       |      
+| ------- | ------------- |
+| ALL   | FLOOD       |
 
+Datapaths are basically the name of switches, each switch gets a datapath ID you use to refer to each other.g
